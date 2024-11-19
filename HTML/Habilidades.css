@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-image:linear-gradient(45deg,white);
+    color: #000000;
+  }
+  
+  header {
+    background-color: #000000;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  header nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  section {
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+  }
+img {
+    justify-content: space-between;
+}
+
+figure {
+    text-align: center; /* Alinha a imagem e legenda no centro */
+}
+figcaption {
+    font-size: 14px; /* Tamanho da fonte da legenda */
+    color: #555; /* Cor da legenda */
+    margin-top: 8px; /* Espaço entre a imagem e a legenda */
+}
